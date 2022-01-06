@@ -1,0 +1,32 @@
+/* Header Styling */
+
+header {
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.search-box {
+  position: relative;
+}
+
+input {
+  padding: 8px 32px 8px 10px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}

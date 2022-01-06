@@ -1,0 +1,41 @@
+.main-section {
+  max-width: 80%;
+  /* width: 300px; */
+  margin: auto;
+}
+
+.coin-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+img {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.name-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.symbol {
+  flex: 1;
+}
+
+.current-price {
+  flex: 1;
+}
+
+.price-percent {
+  flex: 1;
+  font-weight: 700;
+}
