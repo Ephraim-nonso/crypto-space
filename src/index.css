@@ -6,4 +6,6 @@
 
 body {
   font-family: "Roboto Mono", monospace;
+  background-color: #081424;
+  min-height: 100vh;
 }

@@ -7,6 +7,8 @@ import Content from "./components/body/Content";
 
 function App() {
   const [info, setInfo] = useState([]);
+  const searched = [];
+  const [find, setFind] = useState("");
 
   // useEffect(() => {
   //   const coinInfo = axios
@@ -21,8 +23,8 @@ function App() {
   // console.log(info);
 
   return (
-    <CryptoInfo.Provider value={{ info, setInfo }}>
-      <div style={{ backgroundColor: "#081424", minHeight: "100vh" }}>
+    <CryptoInfo.Provider value={{ info, setInfo, searched, find, setFind }}>
+      <div>
         <Header />
         <Content />
       </div>
